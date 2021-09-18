@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name tp_final_symbols)(type Legacy)(uri ${KIPRJMOD}/tp_final_symbols.lib)(options "")(descr ""))
+)

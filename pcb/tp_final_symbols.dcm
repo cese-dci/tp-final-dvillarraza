@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MQ-137
+D Semiconductor Sensor for Ammonia Gas
+K flammable gas sensor LPG
+F https://www.winsen-sensor.com/d/files/semiconductor/mq137.pdf
+$ENDCMP
+#
+$CMP TXB0106
+D 6-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-16
+K Level-Shifter CMOS-TTL-Translation
+F http://www.ti.com/lit/ds/symlink/txb0106.pdf
+$ENDCMP
+#
+#End Doc Library
