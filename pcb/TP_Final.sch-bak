@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Trabajo final - DCI"
-Date "2021-09-06"
+Title "Réplica detector de NH3"
+Date "2021-09-18"
 Rev ""
 Comp "Diego Villarraza"
-Comment1 ""
-Comment2 ""
+Comment1 "Licencia: GPL"
+Comment2 "Trabajo Final - DCI"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -91,7 +91,7 @@ U 1 1 6139054E
 P 4550 2800
 F 0 "C1" H 4800 2850 50  0000 C CNN
 F 1 "100n" H 4850 2750 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4550 2800 50  0001 C CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4550 2800 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4550 2800 50  0001 C CNN
 F 4 "80-C0805C104M5R" H 4550 2800 50  0001 C CNN "Código Mouser"
 	1    4550 2800
@@ -851,4 +851,37 @@ Wire Wire Line
 	9150 3900 8950 3900
 Wire Wire Line
 	9150 3500 8950 3500
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6146D3F7
+P 1050 2050
+F 0 "H1" H 1150 2096 50  0000 L CNN
+F 1 "MountingHole" H 1150 2005 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1050 2050 50  0001 C CNN
+F 3 "~" H 1050 2050 50  0001 C CNN
+	1    1050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6146DF2F
+P 1050 2300
+F 0 "H2" H 1150 2346 50  0000 L CNN
+F 1 "MountingHole" H 1150 2255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 1050 2300 50  0001 C CNN
+F 3 "~" H 1050 2300 50  0001 C CNN
+	1    1050 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Fiducial FID1
+U 1 1 614726C3
+P 1050 2550
+F 0 "FID1" H 1135 2596 50  0000 L CNN
+F 1 "Fiducial" H 1135 2505 50  0000 L CNN
+F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 1050 2550 50  0001 C CNN
+F 3 "~" H 1050 2550 50  0001 C CNN
+	1    1050 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
