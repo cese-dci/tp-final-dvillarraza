@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/diego/Cursos/Esp_IoT/Dieño_Circuitos_Impresos/Repo_TP_Final/tp-final-dvillarraza/pcb/TP_Final.sch)
-    (date "mié 22 sep 2021 19:16:53 -03")
+    (date "mié 22 sep 2021 20:20:14 -03")
     (tool "Eeschema 5.1.10-88a1d61d58~88~ubuntu18.04.1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -71,7 +71,7 @@
       (tstamp 6138F3C3))
     (comp (ref C1)
       (value 100n)
-      (footprint Fiducial:Fiducial_0.75mm_Mask1.5mm)
+      (footprint Capacitor_SMD:C_0805_2012Metric)
       (datasheet https://ar.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf)
       (fields
         (field (name "Código Mouser") 80-C0805C104M5R))

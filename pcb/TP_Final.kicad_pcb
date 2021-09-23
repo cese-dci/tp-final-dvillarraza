@@ -797,9 +797,9 @@
     (pad 6 thru_hole circle (at 6.72 0 270) (size 2 2) (drill 1) (layers *.Cu *.Mask)
       (net 2 +5V))
     (model "/home/diego/Cursos/Esp_IoT/Dieño_Circuitos_Impresos/Detector NH3 MQ-137/User Library-MQ135.WRL"
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (offset (xyz 3 -3 0))
+      (scale (xyz 400 400 400))
+      (rotate (xyz 5 0 80))
     )
     (model ${KISYS3DMOD}/Sensor.3dshapes/MQ-6.wrl
       (at (xyz 0 0 0))
