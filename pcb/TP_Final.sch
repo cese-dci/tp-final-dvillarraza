@@ -145,18 +145,6 @@ F 4 "200-TMM10301TMSSMP" H 3550 3050 50  0001 C CNN "Código Mouser"
 	1    3550 3050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L tp_final_symbols:MQ-137 U1
-U 1 1 61370CE5
-P 1700 3600
-F 0 "U1" H 1850 4050 50  0000 C CNN
-F 1 "MQ-137" H 1950 3950 50  0000 C CNN
-F 2 "Sensor:MQ-6" H 1750 3150 50  0001 C CNN
-F 3 "https://www.winsen-sensor.com/d/files/semiconductor/mq137.pdf" H 1700 3850 50  0001 C CNN
-F 4 "474-SEN-17053" H 1700 3600 50  0001 C CNN "Código Mouser"
-	1    1700 3600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 4350 2400 4350
 $Comp
@@ -441,28 +429,18 @@ Wire Wire Line
 	8850 3400 9150 3400
 Text Label 10000 3400 2    50   ~ 0
 PWM
-Text Label 9950 3600 2    50   ~ 0
-NC
 Text Label 8950 4100 0    50   ~ 0
 GND
 Text Label 8900 4000 0    50   ~ 0
 +3.3V
-Text Label 8950 3900 0    50   ~ 0
-NC
 Text Label 8950 3800 0    50   ~ 0
 MISO
 Text Label 8950 3700 0    50   ~ 0
 SCK
 Text Label 8950 3600 0    50   ~ 0
 CS
-Text Label 8950 3500 0    50   ~ 0
-NC
 Text Label 8950 3400 0    50   ~ 0
 AN
-Text Label 9950 3700 2    50   ~ 0
-NC
-Text Label 9950 3800 2    50   ~ 0
-NC
 Text Label 10000 4000 2    50   ~ 0
 +5V
 Text Label 10000 4100 2    50   ~ 0
@@ -812,8 +790,6 @@ Wire Notes Line
 	7400 4950 7950 4950
 Text Notes 7450 4900 0    50   ~ 0
 Ajusta niveles\nde tensión
-Text Label 9950 3900 2    50   ~ 0
-NC
 $Comp
 L power:+5V #PWR0113
 U 1 1 6151D2EA
@@ -835,8 +811,6 @@ Wire Wire Line
 	9800 4000 10250 4000
 Wire Wire Line
 	9800 4100 10250 4100
-Text Label 9950 3500 2    50   ~ 0
-NC
 Wire Wire Line
 	9800 3500 9950 3500
 Wire Wire Line
@@ -884,4 +858,23 @@ F 3 "~" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	1    0    0    -1  
 $EndComp
+$Comp
+L tp_final_symbols:MQ-137 U1
+U 1 1 61370CE5
+P 1700 3600
+F 0 "U1" H 1850 4050 50  0000 C CNN
+F 1 "MQ-137" H 1950 3950 50  0000 C CNN
+F 2 "Sensor:MQ-6" H 1750 3150 50  0001 C CNN
+F 3 "https://www.winsen-sensor.com/d/files/semiconductor/mq137.pdf" H 1700 3850 50  0001 C CNN
+F 4 "474-SEN-17053" H 1700 3600 50  0001 C CNN "Código Mouser"
+	1    1700 3600
+	1    0    0    1   
+$EndComp
+NoConn ~ 9950 3500
+NoConn ~ 9950 3600
+NoConn ~ 9950 3700
+NoConn ~ 9950 3800
+NoConn ~ 9950 3900
+NoConn ~ 8950 3900
+NoConn ~ 8950 3500
 $EndSCHEMATC

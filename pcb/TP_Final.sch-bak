@@ -91,7 +91,7 @@ U 1 1 6139054E
 P 4550 2800
 F 0 "C1" H 4800 2850 50  0000 C CNN
 F 1 "100n" H 4850 2750 50  0000 C CNN
-F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 4550 2800 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4550 2800 50  0001 C CNN
 F 3 "https://ar.mouser.com/datasheet/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 4550 2800 50  0001 C CNN
 F 4 "80-C0805C104M5R" H 4550 2800 50  0001 C CNN "Código Mouser"
 	1    4550 2800
@@ -144,18 +144,6 @@ F 3 "https://ar.mouser.com/datasheet/2/527/tmm_sm-1370452.pdf" H 3550 3050 50  0
 F 4 "200-TMM10301TMSSMP" H 3550 3050 50  0001 C CNN "Código Mouser"
 	1    3550 3050
 	0    -1   -1   0   
-$EndComp
-$Comp
-L tp_final_symbols:MQ-137 U1
-U 1 1 61370CE5
-P 1700 3600
-F 0 "U1" H 1850 4050 50  0000 C CNN
-F 1 "MQ-137" H 1950 3950 50  0000 C CNN
-F 2 "Sensor:MQ-6" H 1750 3150 50  0001 C CNN
-F 3 "https://www.winsen-sensor.com/d/files/semiconductor/mq137.pdf" H 1700 3850 50  0001 C CNN
-F 4 "474-SEN-17053" H 1700 3600 50  0001 C CNN "Código Mouser"
-	1    1700 3600
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2500 4350 2400 4350
@@ -883,5 +871,17 @@ F 2 "Fiducial:Fiducial_0.75mm_Mask1.5mm" H 1050 2550 50  0001 C CNN
 F 3 "~" H 1050 2550 50  0001 C CNN
 	1    1050 2550
 	1    0    0    -1  
+$EndComp
+$Comp
+L tp_final_symbols:MQ-137 U1
+U 1 1 61370CE5
+P 1700 3600
+F 0 "U1" H 1850 4050 50  0000 C CNN
+F 1 "MQ-137" H 1950 3950 50  0000 C CNN
+F 2 "Sensor:MQ-6" H 1750 3150 50  0001 C CNN
+F 3 "https://www.winsen-sensor.com/d/files/semiconductor/mq137.pdf" H 1700 3850 50  0001 C CNN
+F 4 "474-SEN-17053" H 1700 3600 50  0001 C CNN "Código Mouser"
+	1    1700 3600
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
