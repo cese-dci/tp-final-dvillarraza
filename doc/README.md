@@ -1,3 +1,3 @@
 ## Documentación ##
-Para el alcance del TP solo es obligatorio completar el subdirectorio de "propuesta".
+En el subdirectorio de "propuesta" se enucentra la información del diseño elegido para realizar la réplica.
 
